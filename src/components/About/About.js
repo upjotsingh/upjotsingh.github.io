@@ -39,8 +39,8 @@ function About() {
         <Row style={{ alignItems: 'center' }}>
           <Col md={8} className="home-about-description">
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think…… 🤷‍♂️
+              I fell in love with programming and I have learned
+              so much… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>

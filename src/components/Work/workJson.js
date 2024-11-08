@@ -34,7 +34,7 @@ export const WorkJson = [
     {
 
         companyName: 'Innovatia Marketing & Technology',
-        date: '2020/07 - 2021/04',
+        date: '2019/07 - 2021/04',
         title: 'Software Engineer',
         desc: 'Worked in a startup, developed diverse apps using frontend and backend technologies. ' +
             'Created \'NpRecharge\', it provides Telecom Recharge services, Developed \'Prune\' as an internet data usage monitoring system, ' +
