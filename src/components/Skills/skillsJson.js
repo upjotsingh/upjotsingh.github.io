@@ -26,7 +26,11 @@ import {
     SiJira,
     SiWebpack,
     SiVite,
-    SiJenkins
+    SiJenkins,
+    SiGraphql,
+    SiPostgresql,
+    SiStorybook,
+    SiMaterialdesign
 } from "react-icons/si";
 export const skillsJson = [
 
@@ -64,6 +68,10 @@ export const skillsJson = [
         icon: <CgCPlusPlus />
     },
     {
+        name: 'Material UI',
+        icon: <SiMaterialdesign />
+    },
+    {
         name: 'Firebase',
         icon: <SiFirebase />
     },
@@ -72,8 +80,16 @@ export const skillsJson = [
         icon: <DiMongodb />
     },
     {
+        name: 'GraphQL',
+        icon: <SiGraphql />
+    },
+    {
         name: 'MySQL',
         icon: <SiMysql />
+    },
+    {
+        name: 'PostgreSQL',
+        icon: <SiPostgresql />
     },
     {
         name: 'Git',
@@ -97,6 +113,10 @@ export const toolsJson = [
     {
         name: 'Linux',
         icon: <SiLinux />
+    },
+    {
+        name: 'Storybook',
+        icon: <SiStorybook />
     },
     {
         name: 'VS Code',

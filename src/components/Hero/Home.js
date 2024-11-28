@@ -4,6 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "../About/Home2";
 import Type from "./Type";
+import { motion } from "framer-motion";
+
 
 function Home() {
   return (
@@ -29,7 +31,13 @@ function Home() {
           </Col>
 
           <Col md={5} style={{ paddingBottom: 20 }}>
-            <img
+            < motion.img
+              animate={{ x: [300, -10, 0] }}
+              viewport={{ once: true }}
+              whileInView={true}
+              transition={{
+                duration: 3, type: 'ease',
+              }}
               src={homeLogo}
               alt="home pic"
               className="img-fluid"
