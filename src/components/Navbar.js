@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import logo from "../Assets/logo.png";
+import logo from "../assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link, Router } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";

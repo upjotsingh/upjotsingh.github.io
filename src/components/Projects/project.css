@@ -1,0 +1,115 @@
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border-radius: 8px;
+}
+
+.project-card-view:hover {
+  /* transform: scale(1.02) !important; */
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.project-card-top-title-container {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 2px solid rgba(119, 53, 136, 0.459);
+}
+
+.project-card-top-title {
+  margin: 0px 8px;
+}
+
+.project-card-title-img {
+  width: 46px;
+  height: 42px;
+}
+
+.project-card-img {
+  width: 100%;
+  height: 300px;
+  transition: 0.7s ease;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.project-card-overlay-container {
+  /* background-color: #000000a8; */
+  padding: 8px;
+}
+
+.project-card-title {
+  font-size: 1.5rem !important;
+  text-align: start;
+  margin: 0px;
+}
+
+.project-card-desc {
+  font-size: 1rem !important;
+  text-align: start;
+  margin: 0;
+  transition: 1s ease;
+  border-top: 2px solid rgba(119, 53, 136, 0.459);
+}
+
+.project-card-link-img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s ease;
+}
+
+.project-card-link-img-github {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s ease;
+}
+
+.project-card-link-img-github:hover {
+  opacity: 1;
+}
+
+.project-card-link-img:hover {
+  opacity: 1;
+}
+
+.more-content {
+  position: absolute;
+  overflow-x: hidden;
+  top: 0;
+  -webkit-transition: 0.25s ease-in;
+  transition: 0.2s ease-in;
+  width: 100%;
+  z-index: 100;
+  /* background: #000000a8; */
+}
+
+.project-card-tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  margin: 2% 12.5%;
+}
+
+.project-card-tech-icon {
+  height: 2em;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.project-card-tech-icon:hover {
+  opacity: 1;
+  transform: translateY(-4px);
+}

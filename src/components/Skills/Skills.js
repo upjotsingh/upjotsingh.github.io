@@ -1,14 +1,10 @@
 import React from "react";
-import { Col, Container, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import { skillsJson, toolsJson } from "./skillsJson";
+import TooltipComp from "../tooltip/Tooltip";
 
 function Skills() {
-  const tooltip = (name) => (
-    <Tooltip id="tooltip">
-      <strong >{name}</strong>
-    </Tooltip>
-  );
   return (
     <Container id="skills" className="skill-section">
 
@@ -19,11 +15,11 @@ function Skills() {
         {skillsJson.map(item => (
           <Col xs={4} md={1} style={{ position: 'relative' }} key={item.name}>
             <Tilt >
-              <OverlayTrigger placement="top" overlay={tooltip(item.name)}>
+              <TooltipComp title={item.name}>
                 <div className="tech-icons">
                   {item.icon}
                 </div>
-              </OverlayTrigger>
+              </TooltipComp>
             </Tilt>
           </Col>))}
       </Row>
@@ -34,11 +30,11 @@ function Skills() {
         {toolsJson.map(item => (
           <Col xs={4} md={1} style={{ position: 'relative' }} key={item.name}>
             <Tilt >
-              <OverlayTrigger placement="top" overlay={tooltip(item.name)}>
+              <TooltipComp title={item.name}>
                 <div className="tech-icons">
                   {item.icon}
                 </div>
-              </OverlayTrigger>
+              </TooltipComp>
             </Tilt>
           </Col>))}
       </Row>

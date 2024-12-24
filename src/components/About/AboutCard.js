@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Ontario, Canada.</span>
             <br />
             <br />
-            I am currently employed as a Software Engineer at Tata Consultancy Services.
+            I am currently looking for an opportunity to contribute to the development of software solutions.
             <br />
             <br />
             I have completed Bachelor's of Technology in Computer Science Engineering.

@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../assets/about.png";
 import Home2 from "./Home2";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 
 function About() {
@@ -44,14 +44,14 @@ function About() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, Java and C++ </b>
+                <b className="purple"> Typescript, Javascript, Java and C++. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building client-focused &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products, </b>
-                ensuring <b className="purple"> Secure </b> &amp; <b className="purple"> Test-driven </b> application
+                ensuring <b className="purple"> Secure </b> &amp; <b className="purple"> Test-driven </b> applications.
               </i>
               <br />
               <br />
@@ -65,7 +65,7 @@ function About() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> ReactJs and NextJs.</b>
               </i>
             </p>
           </Col>
