@@ -30,7 +30,9 @@ import {
     SiGraphql,
     SiPostgresql,
     SiStorybook,
-    SiMaterialdesign
+    SiMaterialdesign,
+    SiChakraui,
+    SiAmazonaws
 } from "react-icons/si";
 export const skillsJson = [
 
@@ -50,10 +52,16 @@ export const skillsJson = [
     }, {
         name: 'CSS 3',
         icon: <DiCss3 />
-    }, {
+    },
+    {
         name: 'Bootstrap',
         icon: <DiBootstrap />
-    }, {
+    },
+    {
+        name: 'AWS',
+        icon: <SiAmazonaws />
+    },
+    {
         name: 'NodeJs',
         icon: <DiNodejsSmall />
     }, {
@@ -70,6 +78,10 @@ export const skillsJson = [
     {
         name: 'Material UI',
         icon: <SiMaterialdesign />
+    },
+    {
+        name: 'Chakra UI',
+        icon: <SiChakraui />
     },
     {
         name: 'Firebase',

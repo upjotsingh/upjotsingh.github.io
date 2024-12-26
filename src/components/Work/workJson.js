@@ -25,6 +25,7 @@ import GraphQL from '../../assets/techs/graphql.svg'
 import Next from '../../assets/techs/nextjs.svg'
 import PHP from '../../assets/techs/php.png'
 import Vite from '../../assets/techs/vite.svg'
+import ChakraUI from '../../assets/techs/chakraui.png'
 
 export const WorkJson = [
     {
@@ -39,7 +40,7 @@ export const WorkJson = [
             { name: 'JavaScript', icon: JavaScript },
             { name: 'Html5/CSS3', icon: HTMLCss },
             { name: 'Tailwind CSS', icon: Tailwind },
-            { name: 'Material UI', icon: MUI },
+            { name: 'Chakra UI', icon: ChakraUI },
             { name: 'NodeJs', icon: Node },
             { name: 'Pyhton', icon: Python },
             { name: 'Git', icon: Git },
@@ -104,15 +105,16 @@ export const WorkJson = [
         desc: <span>It is a global leader in IT services, specializing in digital transformation, software engineering,
             AI, and cloud solutions. It excels in full-stack development, data analytics, and modernizing enterprise operations
             with cutting-edge technologies like microservices, big data, and hybrid cloud platforms.
-            <br /><br />As a Software Developer, I took ownership of Life Sciences project and led team to build various
-            cloud-based web apps collaboratively, ensuring optimized builds using Webpack bundler and Vite react tool
+            <br /><br />As a Software Developer, I took ownership of Life Sciences & FinTech projects and build various
+            cloud-based web and mobile apps, ensuring optimized builds using Webpack bundler and Vite react tool
             in a fast-paced Agile environment. These projects involved integration of creative features like live workout
             sessions, webRTC video streaming, appointment booking, over 200 instructional videos, custom diet charts,
             personalized workout routines, and real-time fitness data tracking dashboard, featuring digital payments,
             transaction management, and multi-language support.
-            <br /><br />Seamless integration of GraphQL & RESTful APIs, providing a visualizing dashboard for real-time
-            data analysis with single sign-on & 2F authentication
-            Implemented authentication and efficient caching using Async Storage and managed over 10K records.
+            <br /><br />My area of expertise also covers the FinTech platforms which require a deep understanding of
+            financial regulations, multi-factor authentication, payment gateways, real-time data handling, secure
+            transaction management, and seamless integration of banking APIs. Implemented single sign-on & 2F authentication
+            and efficient caching using Async Storage and managed over 10K records.
 
         </span>
         /**
@@ -138,6 +140,7 @@ export const WorkJson = [
             { name: 'JavaScript', icon: JavaScript },
             { name: 'Html5/CSS3', icon: HTMLCss },
             { name: 'BootStrap', icon: BootStrap },
+            { name: 'MUI', icon: MUI },
             { name: 'NodeJs', icon: Node },
             { name: 'AWS', icon: AWS },
             { name: 'Java', icon: Java },
