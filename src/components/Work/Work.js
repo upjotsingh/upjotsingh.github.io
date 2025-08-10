@@ -11,7 +11,7 @@ function Work() {
     <Container fluid className="work-section" id="work">
       <Container>
         <h1 className="section-heading">
-          My Recent <strong className="purple">Work Experience </strong>
+          My <strong className="purple">Work Experience </strong>
         </h1>
         {WorkJson.map(item => (
           <Row style={{ justifyContent: "center" }} className="work-card">

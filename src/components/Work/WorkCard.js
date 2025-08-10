@@ -16,7 +16,7 @@ function WorkCard({ img, companyName, loc, imgH, imgW, desc, title, date, techSt
           <div className="work-card-img-container">
             <img src={img} height={imgH} width={imgW} alt={companyName} />
           </div>
-          <div>  <a className="work-card-cmp-name">#{companyName}</a><br /><p className="work-card-cmp-loc">{loc}</p></div>
+          <div>  <a className="work-card-cmp-name">{companyName}</a><br /><p className="work-card-cmp-loc">{loc}</p></div>
           <div className="work-card-tech-text-container">
             <p className="work-card-tech-text">
               <FcMultipleDevices size={24} style={{ marginRight: '4px' }} />Tech & Tools

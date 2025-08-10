@@ -1,6 +1,7 @@
 import TCS from '../../assets/works/tcsLogo.png'
 import CTS from '../../assets/works/cognizantLogo.png'
 import INN from '../../assets/works/innovatiaLogo.png'
+import TP from '../../assets/works/tpLogo.jpg'
 import HTMLCss from '../../assets/techs/html_css.svg'
 import JavaScript from '../../assets/techs/javascript.svg'
 import React from '../../assets/techs/react.png'
@@ -28,9 +29,49 @@ import Vite from '../../assets/techs/vite.svg'
 import ChakraUI from '../../assets/techs/chakraui.png'
 
 export const WorkJson = [
+
+    {
+        companyName: 'TP',
+        date: 'March, 2025 - Present',
+        title: 'Frontend Software Engineer',
+        loc: 'Waterloo, On, Canada',
+        techStack: [
+            { name: 'ReactJs', icon: React },
+            { name: 'Typescript', icon: Typescript },
+            { name: 'JavaScript', icon: JavaScript },
+            { name: 'Html5/CSS3', icon: HTMLCss },
+            { name: 'Tailwind CSS', icon: Tailwind },
+            { name: 'NodeJs', icon: Node },
+            { name: 'Pyhton', icon: Python },
+            { name: 'Git', icon: Git },
+            { name: 'AWS', icon: AWS },
+            { name: 'SQL', icon: SQL },
+            { name: 'PostMan', icon: Postman },
+            { name: 'Jenkins', icon: Jenkins },
+        ],
+        img: TP,
+        imgH: '60px',
+        imgW: '55px',
+        desc: <span>TP is a global digital business services company. Their global scale and local presence allow them
+            to be a force of good in supporting their communities, clients, and the environment. They deliver the most
+            advanced, digitally-powered business services to help the world’s best brands streamline their business
+            in meaningful and sustainable ways.
+            <br /><br />As a Frontend Software Engineer, I worked closely with stakeholders to transform business
+            requirements into an intuitive, fully responsive web application built with React and TypeScript.
+            From early architecture planning to final deployment, I ensured the interface was both scalable and
+            visually polished across devices. The application’s backend, developed with Node.js and MySQL, was
+            optimized for performance and stability, delivering a seamless experience even under heavy usage.
+
+
+            <br /><br />To enhance functionality, I integrated multiple third-party services and built secure,
+            AWS and MongoDB powered application, including RESTful APIs capable of managing over 200K employee records.
+            Advanced features such as role-based access control, interactive dashboards, and intelligent search filters
+            were implemented, making complex data handling fast and efficient while maintaining a clean and engaging user experience.
+        </span>
+    },
     {
         companyName: 'Tata Consultancy Services',
-        date: 'September, 2022 - September, 2024',
+        date: 'September, 2022 - October, 2024',
         title: 'Software Engineer',
         loc: 'Noida, India - Hybrid',
         techStack: [
