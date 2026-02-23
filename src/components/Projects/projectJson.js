@@ -17,7 +17,7 @@ import AyuvyaIcon from '../../assets/projects/ayuvyaFavicon.png'
 import HfIcon from '../../assets/projects/hfIcon.png'
 import ExpTreeIcon from '../../assets/projects/expTreeIcon.png'
 import ExpTreeImg from '../../assets/projects/expTreeImage.png'
-import AyuvyaImg from '../../assets/projects/AyuvyaImage.png'
+import AyuvyaImg from '../../assets/projects/ayuvyaImage.png'
 import HFImg from '../../assets/projects/HFImage.png'
 import Vercel from '../../assets/techs/vercel.png'
 

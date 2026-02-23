@@ -11,32 +11,36 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
 import { Container } from "react-bootstrap";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 import { motion } from "framer-motion";
-import { type } from "@testing-library/user-event/dist/type";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const variants = {
-    navBar: { hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.25, duration: 3, type: "spring" } } },
-    navItem: { hidden: { opacity: 0 }, show: { opacity: 1, scale: [2, 1] } }
-  }
+    navBar: {
+      hidden: { opacity: 0 },
+      show: {
+        opacity: 1,
+        transition: { staggerChildren: 0.25, duration: 3, type: "spring" },
+      },
+    },
+    navItem: { hidden: { opacity: 0 }, show: { opacity: 1, scale: [2, 1] } },
+  };
 
-  const MotionNav = motion(Nav)
-  const MotionNavItem = motion(Nav.Item)
+  const MotionNav = motion(Nav);
+  const MotionNavItem = motion(Nav.Item);
 
   function scrollHandler() {
-    const navbar = document.getElementById("navbar")
+    const navbar = document.getElementById("navbar");
     if (window.scrollY >= 20) {
       // updateNavbar(true);
-      navbar.classList.add("sticky")
+      navbar.classList.add("sticky");
     } else {
-      navbar.classList.remove("sticky")
+      navbar.classList.remove("sticky");
       // updateNavbar(false);
     }
   }
@@ -44,7 +48,6 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   return (
-
     <Navbar
       id="navbar"
       expanded={expand}
@@ -52,15 +55,17 @@ function NavBar() {
       expand="md"
       className={"navbar"}
     >
-
       <Container fluid>
-        <HashLink smooth to='#hero' className="d-flex">
+        <HashLink smooth to="#hero" className="d-flex">
           <motion.img
             animate={{ y: [-200, 20, 0] }}
             initial="hidden"
             whileInView={true}
-            transition={{ duration: 3, type: 'ease' }}
-            src={logo} className="img-fluid logo" alt="brand" />
+            transition={{ duration: 3, type: "ease" }}
+            src={logo}
+            className="img-fluid logo"
+            alt="brand"
+          />
         </HashLink>
 
         <Navbar.Toggle
@@ -75,15 +80,22 @@ function NavBar() {
         </Navbar.Toggle>
 
         <Navbar.Collapse id="responsive-navbar-nav">
-
-          <MotionNav variants={variants.navBar}
+          <MotionNav
+            variants={variants.navBar}
             initial="hidden"
             // animate="show"
             viewport={{ once: true }}
             whileInView="show"
-            className="ms-auto" defaultActiveKey="#home">
+            className="ms-auto"
+            defaultActiveKey="#home"
+          >
             <MotionNavItem variants={variants.navBar}>
-              <NavHashLink smooth to="#hero" onClick={() => updateExpanded(false)} className='nav-link'>
+              <NavHashLink
+                smooth
+                to="#hero"
+                onClick={() => updateExpanded(false)}
+                className="nav-link"
+              >
                 Home
               </NavHashLink>
             </MotionNavItem>
@@ -92,7 +104,7 @@ function NavBar() {
               <NavHashLink
                 smooth
                 to="#about"
-                className='nav-link'
+                className="nav-link"
                 onClick={() => updateExpanded(false)}
               >
                 About
@@ -102,7 +114,7 @@ function NavBar() {
               <NavHashLink
                 smooth
                 to="#skills"
-                className='nav-link'
+                className="nav-link"
                 onClick={() => updateExpanded(false)}
               >
                 Skills
@@ -113,7 +125,7 @@ function NavBar() {
               <NavHashLink
                 smooth
                 to="#work"
-                className='nav-link'
+                className="nav-link"
                 onClick={() => updateExpanded(false)}
               >
                 Work
@@ -123,9 +135,10 @@ function NavBar() {
               <NavHashLink
                 smooth
                 to="#projects"
-                className='nav-link'
+                className="nav-link"
                 onClick={() => updateExpanded(false)}
-              >Projects
+              >
+                Projects
               </NavHashLink>
             </MotionNavItem>
             {/* <MotionNavItem variants={variants.navItem}>
@@ -149,12 +162,9 @@ function NavBar() {
                 />Contact
               </NavHashLink>
             </MotionNavItem> */}
-
           </MotionNav>
-
         </Navbar.Collapse>
       </Container>
-
     </Navbar>
   );
 }

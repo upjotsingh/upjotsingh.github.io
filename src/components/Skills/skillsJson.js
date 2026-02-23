@@ -37,7 +37,7 @@ import {
 export const skillsJson = [
 
     {
-        name: 'ReactJs',
+        name: 'ReactJs & React Native',
         icon: <DiReact />
     },
     {

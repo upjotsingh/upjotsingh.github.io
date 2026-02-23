@@ -32,7 +32,7 @@ export const WorkJson = [
 
     {
         companyName: 'TP',
-        date: 'March, 2025 - Present',
+        date: 'March, 2025 - December, 2025',
         title: 'Frontend Software Engineer',
         loc: 'Waterloo, On, Canada',
         techStack: [
@@ -125,7 +125,7 @@ export const WorkJson = [
         title: 'Software Developer',
         loc: 'Pune, India - Remote',
         techStack: [
-            { name: 'ReactJs', icon: React },
+            { name: 'ReactJs & React Native', icon: React },
             { name: 'NextJs', icon: Next },
             { name: 'Typescript', icon: Typescript },
             { name: 'JavaScript', icon: JavaScript },
