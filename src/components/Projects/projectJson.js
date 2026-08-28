@@ -15,6 +15,8 @@ import BootStrap from '../../assets/techs/bootstrap.svg'
 import Postman from '../../assets/techs/postman.svg'
 import AyuvyaIcon from '../../assets/projects/ayuvyaFavicon.png'
 import HfIcon from '../../assets/projects/hfIcon.png'
+import HCIcon from '../../assets/projects/heritageCabinets.png'
+import HCImg from '../../assets/projects/HC.png'
 import ExpTreeIcon from '../../assets/projects/expTreeIcon.png'
 import ExpTreeImg from '../../assets/projects/expTreeImage.png'
 import AyuvyaImg from '../../assets/projects/ayuvyaImage.png'
@@ -66,29 +68,55 @@ export const projectJson = [
 
     },
     {
-        projName: 'Hello Fitness',
-        projIcon: HfIcon,
-        projShortDesc: 'Fitness app providing consultations & webRTC video workout sessions.',
+        projName: 'Heritage Cabinets',
+        projIcon: HCIcon,
+        projShortDesc: 'Business website for a custom cabinetry & joinery company.',
         projTech: [{ name: 'ReactJs', icon: React },
         { name: 'Typescript', icon: Typescript },
         { name: 'JavaScript', icon: JavaScript },
         { name: 'Html5/CSS3', icon: HTMLCss },
         { name: 'AWS', icon: AWS },
         { name: 'Git', icon: Git, },
-        { name: 'BootStrap', icon: BootStrap },
+        { name: 'Tailwind CSS', icon: Tailwind },
         { name: 'NodeJs', icon: Node },
         { name: 'SQL', icon: SQL },
-
         { name: 'Postman', icon: Postman, }],
-        projDesc: <span>Hello Fitness offers tailored fitness solutions, with a focus on running and holistic health for busy
-            professionals. It provides various membership plans that include custom training programs, community access, and
-            lifetime support.<br></br><br></br>
-            Features include one-on-one coaching, live sessions, and workshops. Led by experienced athlete Ishan Sharma,
-            It's a user-friendly platform, offering resources for users aiming for personal fitness goals.
+        projDesc: <span>Heritage Cabinets offers a wide range of high-quality furniture solutions, with a focus on
+            traditional craftsmanship and modern design. The site gives visitors a browsable gallery of completed
+            kitchens and cabinetry work alongside clear service and contact information.<br></br><br></br>
+            Features include a custom quote request form, responsive product galleries, and a component-driven
+            design system built with Tailwind CSS, delivering a fast, mobile-friendly experience for a
+            family-owned business's clients across Australia.
         </span>,
-        img: HFImg,
+        img: HCImg,
         gitLink: '',
-        demoLink: 'https://hellofitness.in/'
+        demoLink: 'https://heritagecabinets.com.au/'
     },
+    // {
+    //     projName: 'Hello Fitness',
+    //     projIcon: HfIcon,
+    //     projShortDesc: 'Fitness app providing consultations & webRTC video workout sessions.',
+    //     projTech: [{ name: 'ReactJs', icon: React },
+    //     { name: 'Typescript', icon: Typescript },
+    //     { name: 'JavaScript', icon: JavaScript },
+    //     { name: 'Html5/CSS3', icon: HTMLCss },
+    //     { name: 'AWS', icon: AWS },
+    //     { name: 'Git', icon: Git, },
+    //     { name: 'BootStrap', icon: BootStrap },
+    //     { name: 'NodeJs', icon: Node },
+    //     { name: 'SQL', icon: SQL },
+
+    //     { name: 'Postman', icon: Postman, }],
+    //     projDesc: <span>Hello Fitness offers tailored fitness solutions, with a focus on running and holistic health for busy
+    //         professionals. It provides various membership plans that include custom training programs, community access, and
+    //         lifetime support.<br></br><br></br>
+    //         Features include one-on-one coaching, live sessions, and workshops. Led by experienced athlete Ishan Sharma,
+    //         It's a user-friendly platform, offering resources for users aiming for personal fitness goals.
+    //     </span>,
+    //     img: HFImg,
+    //     gitLink: '',
+    //     demoLink: 'https://hellofitness.in/'
+    // }
+    
 
 ]

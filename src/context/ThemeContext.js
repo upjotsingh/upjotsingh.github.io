@@ -5,9 +5,9 @@ const ThemeContext = createContext(undefined);
 const STORAGE_KEY = "portfolio-theme";
 
 function getInitialTheme() {
-  if (typeof window === "undefined") return "light";
+  if (typeof window === "undefined") return "dark";
   const saved = window.localStorage.getItem(STORAGE_KEY);
-  return saved === "dark" || saved === "light" ? saved : "light";
+  return saved === "dark" || saved === "light" ? saved : "dark";
 }
 
 export function ThemeProvider({ children }) {

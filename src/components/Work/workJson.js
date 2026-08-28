@@ -76,7 +76,7 @@ export const WorkJson = [
         loc: 'Noida, India - Hybrid',
         techStack: [
             { name: 'ReactJs', icon: React },
-            { name: 'Angular', icon: Angular },
+            // { name: 'Angular', icon: Angular },
             { name: 'Typescript', icon: Typescript },
             { name: 'JavaScript', icon: JavaScript },
             { name: 'Html5/CSS3', icon: HTMLCss },

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f1fb" />
+    <meta name="theme-color" content="#0c0513" />
     <meta
       name="description"
       content="Upjot Singh - Software Engineer specializing in React, TypeScript and Node.js. Personal portfolio showcasing work experience and projects."
@@ -15,7 +15,7 @@
       (function () {
         try {
           var saved = window.localStorage.getItem("portfolio-theme");
-          var theme = saved === "dark" ? "dark" : "light";
+          var theme = saved === "light" ? "light" : "dark";
           document.documentElement.setAttribute("data-theme", theme);
         } catch (e) {}
       })();
