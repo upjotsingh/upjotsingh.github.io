@@ -66,11 +66,11 @@ function About() {
           <Col md={8} className="home-about-description">
             <motion.div style={{ opacity: bodyOpacity, y: bodyY }}>
               <p className="home-about-body">
-                With over <b className="purple">5 years of experience</b> building
+                With over <b className="purple">4+ years of experience</b> building
                 production web applications, I specialize in crafting fast,
                 accessible interfaces with
                 <i>
-                  <b className="purple"> TypeScript, JavaScript, Java and C++. </b>
+                  <b className="purple"> TypeScript, JavaScript, Tailwind CSS, MySQL and many more... </b>
                 </i>
                 <br />
                 <br />

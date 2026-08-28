@@ -12,15 +12,15 @@ function AboutCard() {
             Engineer based in <span className="purple">Ontario, Canada.</span>
             <br />
             <br />
-            I've spent the last several years building production React and
+            I've spent several years building production React and
             Node.js applications for organizations ranging from enterprise
             teams to fast-moving startups, including work on
             government-scale systems serving over a billion users.
             <br />
             <br />
-            I hold a Bachelor's of Technology in Computer Science Engineering,
-            and I'm currently open to new opportunities where I can bring
-            that experience to a team building something meaningful.
+            I'm currently pursuing a Master's degree in Data Analytics at the University of Niagara Falls,
+            and I'm always open to new opportunities where I can bring
+            my experience to a team building something meaningful.
             <br />
             <br />
           </p>

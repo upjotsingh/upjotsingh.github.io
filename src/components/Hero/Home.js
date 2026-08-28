@@ -19,6 +19,9 @@ function Home() {
   return (
     <Container fluid className="home-section" id="hero">
       <motion.div className="home-bg-layer" style={{ opacity: bgOpacity }} />
+      <motion.div className="home-particles" style={{ opacity: bgOpacity }}>
+        <Particle id="tsparticles-hero" />
+      </motion.div>
       <Container className="home-content">
         <Row>
           <Col md={7} className="home-header">

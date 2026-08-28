@@ -42,7 +42,7 @@ export const WorkJson = [
             { name: 'Html5/CSS3', icon: HTMLCss },
             { name: 'Tailwind CSS', icon: Tailwind },
             { name: 'NodeJs', icon: Node },
-            { name: 'Pyhton', icon: Python },
+            { name: 'Python', icon: Python },
             { name: 'Git', icon: Git },
             { name: 'AWS', icon: AWS },
             { name: 'SQL', icon: SQL },
@@ -83,7 +83,7 @@ export const WorkJson = [
             { name: 'Tailwind CSS', icon: Tailwind },
             { name: 'Chakra UI', icon: ChakraUI },
             { name: 'NodeJs', icon: Node },
-            { name: 'Pyhton', icon: Python },
+            { name: 'Python', icon: Python },
             { name: 'Git', icon: Git },
             { name: 'AWS', icon: AWS },
             { name: 'SQL', icon: SQL },
@@ -98,19 +98,19 @@ export const WorkJson = [
         imgW: '55px',
         desc: <span> An IT services, consulting and business solutions SaaS organization that has been partnering
             with many of the world’s largest businesses for over 56 years, recognized as a benchmark of excellence
-            in software development with unique Location Independent Agile™ delivery model .
+            in software development with unique Location Independent Agile™ delivery model.
             <br /><br />As a Software Engineer, I have been an integral part of large-scale government projects for the
             Election Commission of India. My contributions included mentoring and leading team with the implementation
             of complex modules such as analytical maps & Chatbot integrations, QR code scanner hardware integration,
-            voter ID card designing using PDF-gen libraries, internationaliztion for 10+ languages, API integrations,
+            voter ID card designing using PDF-gen libraries, internationalization for 10+ languages, API integrations,
             Dark & Light theme management. I have led several subparts of the project, followed by strict agile/scrum
             methodologies to meet requirements and submission dates. Therefore, I have been awarded several times with
             titles such as "On the Spot Award", "Best Lead Award" and "Appreciation from Team".
             <br /><br />Proficiently converted Figma & Adobe XD designs into adaptive UI/UX & reusable components with tailwind CSS
-            using latest design patterns & accessibility guidelines. Handled over 1.4 billion customers and large datasets with
+            using the latest design patterns & accessibility guidelines. Handled over 1.4 billion customers and large datasets with
             state management tools, high-performance service-oriented architecture, Unit, Integration & E2E testing, ensuring
-            a smooth workflow and development lifecycle while maintaining security measures, validated JSON web tokens,
-            managed sessions which increased data protection regulations.
+            a smooth workflow and development lifecycle while maintaining security measures, validating JSON web tokens,
+            and managing sessions to strengthen compliance with data protection regulations.
         </span>
         // 'Led team & developed several React apps for the Election Commission of India, streamlined elections for ~1.4' +
         //     'billion users, managed grievances, ballot papers, PDF generation, vote counting, and other election-related parameters.\n' +
@@ -146,7 +146,7 @@ export const WorkJson = [
         desc: <span>It is a global leader in IT services, specializing in digital transformation, software engineering,
             AI, and cloud solutions. It excels in full-stack development, data analytics, and modernizing enterprise operations
             with cutting-edge technologies like microservices, big data, and hybrid cloud platforms.
-            <br /><br />As a Software Developer, I took ownership of Life Sciences & FinTech projects and build various
+            <br /><br />As a Software Developer, I took ownership of Life Sciences & FinTech projects and built various
             cloud-based web and mobile apps, ensuring optimized builds using Webpack bundler and Vite react tool
             in a fast-paced Agile environment. These projects involved integration of creative features like live workout
             sessions, webRTC video streaming, appointment booking, over 200 instructional videos, custom diet charts,
@@ -154,7 +154,7 @@ export const WorkJson = [
             transaction management, and multi-language support.
             <br /><br />My area of expertise also covers the FinTech platforms which require a deep understanding of
             financial regulations, multi-factor authentication, payment gateways, real-time data handling, secure
-            transaction management, and seamless integration of banking APIs. Implemented single sign-on & 2F authentication
+            transaction management, and seamless integration of banking APIs. Implemented single sign-on & 2FA authentication
             and efficient caching using Async Storage and managed over 10K records.
 
         </span>
@@ -195,14 +195,14 @@ export const WorkJson = [
         img: INN,
         imgH: '52px',
         imgW: '82px',
-        desc: <span>An organisation with the aim to grow startups, SaaS & SMEs by enriching their business with the
-            combination of technology, strategy, and creativity. Their specialty falls in running high yielding Facebook
-            advertising and developing flawless technology resulting in building a name in the list of leading
-            digital marketing & Software development services in India.
+        desc: <span>An organization with the aim to grow startups, SaaS & SMEs by enriching their business with the
+            combination of technology, strategy, and creativity. Their specialty is running high-yielding Facebook
+            advertising and developing flawless technology, building a name among the leading
+            digital marketing & software development services in India.
             <br /><br />While working in this startup as a Software Engineer, I've developed diverse apps using
             frontend and backend technologies which enhanced my ability to deliver high-quality solutions under tight
-            deadlines in a fast-paced environment. I have worked on various AWS such as Lambda functions, S3 storage,
-            ECS instances, Redis Database, and DMS for migration, along with efficient designing and development of
+            deadlines in a fast-paced environment. I have worked on various AWS services such as Lambda functions, S3 storage,
+            ECS instances, Redis, and DMS for migration, along with efficient design and development of
             various complex projects concurrently.
             <br /><br />Developed several E-commerce & enterprise web apps with SEO techniques, contributed to DevOps
             best practices, including deployments, hosting, and role-based app authorizations. I worked collaboratively
