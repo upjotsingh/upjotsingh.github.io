@@ -21,6 +21,8 @@ import Particle from "./components/Particle";
 import Techstack from "./components/Skills/Skills";
 import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
+import { ThemeProvider } from "./context/ThemeContext";
+import { ScrollTransitionProvider } from "./context/ScrollTransitionContext";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -41,23 +43,27 @@ function App() {
     //   transitionTime={75}
     // >
 
-    <Router>
+    <ThemeProvider>
+      <Router>
 
-      <Preloader load={load} />
-      <Navbar />
-      {/* <div className="App" id={load ? "no-scroll" : "scroll"}> */}
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Particle />
-        {/* <ScrollToTop /> */}
-        <Home />
-        <About />
-        <Techstack />
-        <Work />
-        <Projects />
-        {/* <Contact /> */}
-        <Footer />
-      </div>
-    </Router>
+        <Preloader load={load} />
+        <Navbar />
+        {/* <div className="App" id={load ? "no-scroll" : "scroll"}> */}
+        <div className="App" id={load ? "no-scroll" : "scroll"}>
+          <Particle />
+          {/* <ScrollToTop /> */}
+          <ScrollTransitionProvider>
+            <Home />
+            <About />
+          </ScrollTransitionProvider>
+          <Techstack />
+          <Work />
+          <Projects />
+          {/* <Contact /> */}
+          <Footer />
+        </div>
+      </Router>
+    </ThemeProvider>
   );
 }
 

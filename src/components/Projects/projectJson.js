@@ -26,7 +26,6 @@ export const projectJson = [
     {
         projName: 'Expression Tree Generator',
         projIcon: ExpTreeIcon,
-        projShortDesc: 'Short discription here for not more than 2 lines only.',
         projShortDesc: 'Generate a binary tree of an arithmetic expression.',
         projTech: [{ name: 'ReactJs', icon: React },
         { name: 'JavaScript', icon: JavaScript },

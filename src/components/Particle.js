@@ -1,7 +1,11 @@
 import React from "react";
 import Particles from "react-tsparticles";
+import { useTheme } from "../context/ThemeContext";
 
 function Particle() {
+  const { theme } = useTheme();
+  const particleColor = theme === "dark" ? "#ffffff" : "#7c3aed";
+
   return (
     <Particles
       id="tsparticles"
@@ -13,6 +17,9 @@ function Particle() {
               enable: true,
               value_area: 1500,
             },
+          },
+          color: {
+            value: particleColor,
           },
           line_linked: {
             enable: false,
@@ -26,6 +33,7 @@ function Particle() {
             value: 1,
           },
           opacity: {
+            value: theme === "dark" ? 0.7 : 0.35,
             anim: {
               enable: true,
               speed: 1,

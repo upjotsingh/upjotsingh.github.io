@@ -8,14 +8,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Upjot Singh </span>
-            from <span className="purple"> Ontario, Canada.</span>
+            Hi, I'm <span className="purple">Upjot Singh</span>, a Software
+            Engineer based in <span className="purple">Ontario, Canada.</span>
             <br />
             <br />
-            I am currently looking for an opportunity to contribute to the development of software solutions.
+            I've spent the last several years building production React and
+            Node.js applications for organizations ranging from enterprise
+            teams to fast-moving startups, including work on
+            government-scale systems serving over a billion users.
             <br />
             <br />
-            I have completed Bachelor's of Technology in Computer Science Engineering.
+            I hold a Bachelor's of Technology in Computer Science Engineering,
+            and I'm currently open to new opportunities where I can bring
+            that experience to a team building something meaningful.
             <br />
             <br />
           </p>

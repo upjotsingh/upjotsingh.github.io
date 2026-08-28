@@ -17,6 +17,7 @@ import { CgFileDocument } from "react-icons/cg";
 import { Container } from "react-bootstrap";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 import { motion } from "framer-motion";
+import ThemeToggle from "./ThemeToggle";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -56,7 +57,7 @@ function NavBar() {
       className={"navbar"}
     >
       <Container fluid>
-        <HashLink smooth to="#hero" className="d-flex">
+        <HashLink smooth to="#hero" className="d-flex navbar-brand-link">
           <motion.img
             animate={{ y: [-200, 20, 0] }}
             initial="hidden"
@@ -67,17 +68,6 @@ function NavBar() {
             alt="brand"
           />
         </HashLink>
-
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <MotionNav
@@ -164,6 +154,21 @@ function NavBar() {
             </MotionNavItem> */}
           </MotionNav>
         </Navbar.Collapse>
+
+        <div className="navbar-right-controls">
+          <ThemeToggle />
+
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            onClick={() => {
+              updateExpanded(expand ? false : "expanded");
+            }}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </Navbar.Toggle>
+        </div>
       </Container>
     </Navbar>
   );

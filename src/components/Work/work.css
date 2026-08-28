@@ -13,20 +13,10 @@
 }
 
 .work-card-view {
-    box-shadow: 0 1px 1px 4px rgba(119, 53, 136, 0.459) !important;
-    color: white !important;
-    background-color: transparent !important;
-    opacity: 0.9 !important;
-    transition: all 0.5s ease 0s !important;
-    height: 100% !important;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.work-card-view {
-    box-shadow: 0 1px 1px 2px rgba(119, 53, 136, 0.459) !important;
-    color: white !important;
-    background-color: transparent !important;
+    box-shadow: 0 1px 1px 2px var(--card-shadow) !important;
+    color: var(--text-primary) !important;
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--card-border);
     opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
@@ -48,18 +38,18 @@
 .work-card-subtitle {
     font-size: 15px;
     text-align: left;
-    color: #ccc;
+    color: var(--text-secondary);
 }
 
 .work-card-date {
     font-size: 12px;
     text-align: left;
-    color: #ccc;
+    color: var(--text-secondary);
 }
 
 .work-card-desc {
     text-align: justify;
-    color: #ccc;
+    color: var(--text-secondary);
     padding: 12px;
 }
 
@@ -76,7 +66,7 @@
     width: 70%;
     text-align: center;
     background: var(--imp-text-color);
-    box-shadow: 0px 3px 8px 1px rgba(129, 72, 144, 0.561) !important
+    box-shadow: 0px 3px 8px 1px var(--card-shadow-hover) !important
 }
 
 .work-card-img-container {
@@ -87,7 +77,8 @@
     min-height: var(--work--card--img--WH);
     max-width: var(--work--card--img--WH);
     max-height: var(--work--card--img--WH);
-    background: white;
+    background: #ffffff;
+    border: 1px solid var(--card-border);
     border-radius: 12px;
     overflow: hidden;
     display: flex;
@@ -97,11 +88,11 @@
 
 .work-card-view:hover {
     /* transform: scale(1.02) !important; */
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+    box-shadow: 0 4px 4px 5px var(--card-shadow-hover) !important;
 }
 
 .work-card-left-container {
-    border-right: 2px solid rgba(119, 53, 136, 0.452);
+    border-right: 2px solid var(--divider);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +101,7 @@
 
 @media (max-width: 767px) {
     .work-card-left-container {
-        border-bottom: 2px solid rgba(119, 53, 136, 0.452);
+        border-bottom: 2px solid var(--divider);
         border-right: 0px
     }
 }
@@ -153,7 +144,7 @@
 
 .work-card-cmp-name {
     text-decoration: none;
-    color: white;
+    color: var(--text-primary);
     font-size: 20px;
 }
 
